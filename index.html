@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HTML Cheat Sheet</title>
+  </head>
+  <body>
+    <a href="blog.html"> Go to blog</a>
+    <hr />
+    <!--  Headings  -->
+    <h1>Heading One</h1>
+    <h2>Heading Two</h2>
+    <h3>Heading Three</h3>
+    <h4>Heading Four</h4>
+    <h5>Heading Five</h5>
+    <h6>Heading Six</h6>
+
+    <!-- Paragraphs -->
+    <!-- add "target = "_blank" to website links if you want to open in new tab"   -->
+    <p>
+      Lorem ipsum dolor sit, amet
+      <a href="http://google.com" target="_blank">link to tap</a> consectetur
+      adipisicing elit. Nihil laborum aperiam quo at
+      <strong>temporibus</strong> accusantium nisi. Maxime, natus magni?
+      Voluptatem illo quia rerum, nobis <em>heyyy</em> ea ab mollitia eaque.
+      Numquam.Ipsa aspernatur non atque expedita tempora quod, quaerat odit quo
+      doloribus, corporis, provident necessitatibus consequuntur. Explicabo,
+      minima, dolorem velit animi, atque corporis culpa voluptas natus
+      voluptatibus autem unde inventore dolorum?
+    </p>
+    <p>
+      Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nihil laborum
+      aperiam quo at temporibus accusantium nisi. Maxime, natus magni?
+      Voluptatem illo quia rerum, nobis ipsa ea ab mollitia eaque. Numquam.Ipsa
+      aspernatur non atque expedita tempora quod, quaerat odit quo doloribus,
+      corporis, provident necessitatibus consequuntur. Explicabo, minima,
+      dolorem velit animi, atque corporis culpa voluptas natus voluptatibus
+      autem unde inventore dolorum?
+    </p>
+
+    <!-- Lists  -->
+
+    <!-- Unordered Lists -->
+
+    <ul>
+      <li>List item 1</li>
+      <li>List item 2</li>
+      <li>List item 3</li>
+      <li>List item 4</li>
+    </ul>
+
+    <!-- ordered Lists -->
+
+    <ol>
+      <li>List item 1</li>
+      <li>List item 2</li>
+      <li>List item 3</li>
+      <li>List item 4</li>
+    </ol>
+
+    <!-- Table -->
+
+    <table>
+      <thead>
+        <tr>
+          <!-- table row -->
+          <th>Name</th>
+          <th>Email</th>
+          <th>Age</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Brad</td>
+          <!--table data-->
+          <td>Brad@something.com</td>
+          <td>35</td>
+        </tr>
+        <tr>
+          <td>John</td>
+          <!--table data-->
+          <td>john@something.com</td>
+          <td>45</td>
+        </tr>
+        <tr>
+          <td>james</td>
+          <!--table data-->
+          <td>james@something.com</td>
+          <td>42</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <!--line break-->
+    <br />
+    <!--line dash-->
+    <hr />
+    <br />
+
+    <!-- Forms -->
+    <form action="process.php" method="POST">
+      <div>
+        <label>First Name</label>
+        <input type="text" name="firstName" placeholder="Enter first Name" />
+      </div>
+      <br />
+      <div>
+        <label>Last Name</label>
+        <input type="text" name="lastName" />
+      </div>
+      <br />
+      <!-- email type has validation-->
+      <div>
+        <label>Email</label>
+        <input type="email" name="email" />
+      </div>
+      <br />
+      <!-- for longer text inputs, use "text area"-->
+      <div>
+        <label>Message</label>
+        <textarea name="message"></textarea>
+      </div>
+      <br />
+      <!-- field types"-->
+      <div>
+        <label>Gender</label>
+        <select name="gender">
+          <option value="male">Male</option>
+          <option value="female">Female</option>
+        </select>
+      </div>
+      <br />
+      <div>
+        <label>Age:</label>
+        <input type="number" name="age" value="30" />
+      </div>
+      <br />
+      <div>
+        <label>Birthday:</label>
+        <input type="date" name="birthday" />
+      </div>
+
+      <input type="submit" name="submit" value="Submit " />
+    </form>
+
+    <!--Button: doesn't work without JS-->
+    <button>Click Me</button>
+    <br />
+    <!--Images-->
+
+    <a
+      href="https://static01.nyt.com/images/2020/03/14/nyregion/14nyvirus-hospitalsNEW3/14nyvirus-hospitalsNEW3-videoLarge.jpg"
+    >
+      <img
+        src="https://static01.nyt.com/images/2020/03/14/nyregion/14nyvirus-hospitalsNEW3/14nyvirus-hospitalsNEW3-videoLarge.jpg"
+        alt="My Sample Image"
+        width="200"
+      />
+    </a>
+
+    <!-- Quotations -->
+    <blockquote cite="http://google.com">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia odit nemo
+      dolorum asperiores, cupiditate doloribus laborum ducimus quidem accusamus,
+      culpa voluptas aut consequatur iusto numquam dignissimos nulla sequi earum
+      obcaecati!
+    </blockquote>
+
+    <p>The <abbr title="World Wide Web">WWW</abbr> is awesome</p>
+
+    <p><cite>HTML Crash course</cite> is awesome</p>
+  </body>
+</html>
